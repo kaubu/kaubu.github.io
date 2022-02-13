@@ -1,0 +1,47 @@
+:: House
+! Welcome to your house.
+Wow, it doesn't look like a $gender human lived here, interesting.
+
+Anyway, where would you like to go now?
+
+<<hubnav house>>
+
+<<link "Return" "Start">><</link>>
+
+:: Bedroom [house]
+You enter your bedroom. Nothing interesting going on here.
+
+<<return>>
+
+:: Lounge [house]
+You try to enter, but the door leading to the lounge is locked.
+
+You see your mother arguing with a solemn man in a business suit.
+
+<<return>>
+
+:: Kitchen [house]
+You try to enter, but your father ushers you out, as you distract him cooking.
+
+<<return>>
+
+:: Sibling's Bedroom [house]
+You knock, but no one answers.
+
+You knock again, and a loud "Go away!" comes from the room.
+
+<<return>>
+
+:: Outside [house]
+It's raining, so you decide not to go outside.
+
+<<return>>
+
+:: The Red Door. [house]
+You don't go through the red door. You don't even approach it.
+
+It's a regular door, but you're forbidden to go near it.
+
+Do not search for answers, you will not find anything.
+
+<<return>>

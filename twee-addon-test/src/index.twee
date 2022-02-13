@@ -1,0 +1,34 @@
+:: StoryData
+{
+    "ifid": "B280A0BD-A135-4C3C-935B-B56BC89FC813",
+    "format": "SugarCube",
+    "format-version": "2"
+}
+
+:: StoryTitle
+Addon Test (lol)
+
+:: StoryInit
+<<set $genders = [
+    "Female",
+    "Male",
+    "Non-binary",
+    "Other"
+]>>
+<<cacheaudio "rain" "audio/rain_loop.mp3">>
+
+:: Start
+! Do you wish to play?
+<<link "Start game" "GameStart">><</link>>
+
+:: GameStart
+/* <<audio "rain" volume 0.0001 fadeoverto 5 0.1 loop>> */
+<<audio "rain" volume 0.1 loop play>>
+! Welcome
+Please get comfortable.
+!! To start with, what is your gender?
+<<listbox "$gender">>
+    <<optionsfrom $genders>>
+<</listbox>>
+
+<<link "Continue" "House">><</link>>
