@@ -6,3 +6,9 @@ Code: `.*XYZ.*\r?\n` -> Replace with empty string
 Can replace new lines with `, ` to make a python list, for example.
 
 Code: `[\r\n]+` -> replace with `X`
+## Remove lines ending with XYZ
+Code: `[^%]*XYZ` -> Replace with empty string
+
+This will leave a lot of empty lines.
+## Remove empty lines
+Code: `^(?:[\t ]*(?:\r?\n|\r))+` -> replace with nothing
