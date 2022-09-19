@@ -1,3 +1,5 @@
+## Delete all duplicate lines
+Code: `^(.*)(\r?\n\1)+$` -> Replace with `\1`
 ## Delete all lines with XYZ string
 Code: `.*XYZ.*\r?\n` -> Replace with empty string
 ## Replace new lines with X
