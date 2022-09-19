@@ -1,4 +1,6 @@
 # Welcome to my site!
+## My stuff
+### [Regular Expressions](./regular-expressions/)
 ## Interesting Links
 ### Germanic Thesaurus (Copyable)
 The original Germanic Thesaurus (which you can find [here](https://docs.google.com/spreadsheets/d/1nf_aF_hmDQnYyiwJbGdX4kdwIST_VUziRqXp0AfE2Yk/edit)) is quite authoritarian, in that it disallows copying.
