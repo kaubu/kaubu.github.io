@@ -12,3 +12,8 @@ Code: `[^%]*XYZ` -> Replace with empty string
 This will leave a lot of empty lines.
 ## Remove empty lines
 Code: `^(?:[\t ]*(?:\r?\n|\r))+` -> replace with nothing
+
+## Surround each line with characters X and Y
+Code: `^(.*)$` -> Replace: `X\1Y`
+
+For example, to surround everything in quotes, replace with: `\(\1\)`
