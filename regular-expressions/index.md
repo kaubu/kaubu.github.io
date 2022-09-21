@@ -16,4 +16,6 @@ Code: `^(?:[\t ]*(?:\r?\n|\r))+` -> replace with nothing
 ## Surround each line with characters X and Y
 Code: `^(.*)$` -> Replace: `X\1Y`
 
-For example, to surround everything in quotes, replace with: `\(\1\)`
+For example:
+* to surround everything in brackets, replace with: `\(\1\)`
+* to surround everything in curly brackets, replace with: `{\1}`
