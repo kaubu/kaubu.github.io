@@ -19,3 +19,9 @@ Code: `^(.*)$` -> Replace: `X\1Y`
 For example:
 * to surround everything in brackets, replace with: `\(\1\)`
 * to surround everything in curly brackets, replace with: `{\1}`
+
+## Delete first and last characters of each line
+### Delete first character
+Code: `^.?(.*)` -> Replace: `\1`
+### Delete last character
+Code: `.{1}$` -> Replace: `` (nothing)
