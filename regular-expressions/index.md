@@ -25,3 +25,7 @@ For example:
 Code: `^.?(.*)` -> Replace: `\1`
 ### Delete last character
 Code: `.{1}$` -> Replace: `` (nothing)
+
+## Miscellaneous
+### Capture everything within "{number} [word1 word2 word3, etc] "
+`\d \[.+\] `
