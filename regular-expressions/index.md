@@ -1,5 +1,6 @@
 ## Delete all duplicate lines
 Code: `^(.*)(\r?\n\1)+$` -> Replace with `\1`
+Replace with ` ` (nothing) in order to remove every singe line that ever had more than one copy, rather than removing the copy
 ## Delete all lines with XYZ string
 Code: `.*XYZ.*\r?\n` -> Replace with empty string
 ## Replace new lines with X
