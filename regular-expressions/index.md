@@ -35,4 +35,5 @@ Code: `X.*` -> Replace: ` ` (nothing)
 `\d \[.+\] `
 ### Capture verbs that end in a single l
 `.*[aeiou]ling` – Gerund or Present Participle
+
 `.*[aeiou]led` – Simple Past tense
