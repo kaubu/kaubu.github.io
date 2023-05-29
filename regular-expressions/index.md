@@ -33,3 +33,6 @@ Code: `X.*` -> Replace: ` ` (nothing)
 ## Miscellaneous
 ### Capture everything within "{number} [word1 word2 word3, etc] "
 `\d \[.+\] `
+### Capture verbs that end in a single l
+`.*[aeiou]ling` – Gerund or Present Participle
+`.*[aeiou]led` – Simple Past tense
