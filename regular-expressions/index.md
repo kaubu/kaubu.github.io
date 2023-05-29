@@ -34,6 +34,11 @@ Code: `X.*` -> Replace: ` ` (nothing)
 ### Capture everything within "{number} [word1 word2 word3, etc] "
 `\d \[.+\] `
 ### Capture verbs that end in a single l
+#### Linux
 `.*[aeiou]ling\n` – Gerund or Present Participle
 
 `.*[aeiou]led\n` – Simple Past tense
+#### Windows
+`.*[aeiou]ling\r\n` – Gerund or Present Participle
+
+`.*[aeiou]led\r\n` – Simple Past tense
