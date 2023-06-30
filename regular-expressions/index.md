@@ -30,6 +30,11 @@ Code: `.{1}$` -> Replace: ` ` (nothing)
 ## Delete everything after X
 Code: `X.*` -> Replace: ` ` (nothing)
 
+## Insert at the start of each of line
+Code: `^(.*)` -> Replace: `{text}\1`
+## Insert at the end of each line
+Code: `(.*)$` -> Replace: `\1{text}`
+
 ## Miscellaneous
 ### Capture everything within "{number} [word1 word2 word3, etc] "
 `\d \[.+\] `
