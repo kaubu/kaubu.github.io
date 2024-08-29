@@ -47,3 +47,7 @@ Code: `(.*)$` -> Replace: `\1{text}`
 `.*[aeiou]ling\r\n` – Gerund or Present Participle
 
 `.*[aeiou]led\r\n` – Simple Past tense
+
+### Delete Wikipedia citations
+
+`\[..?\]` → Replace: ` ` (nothing)
